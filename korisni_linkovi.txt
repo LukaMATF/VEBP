@@ -1,0 +1,4 @@
+https://fontawesome.com
+https://css-tricks.com/useful-nth-child-recipies/
+
+https://www.w3schools.com/css/css3_flexbox.asp#flex-flow

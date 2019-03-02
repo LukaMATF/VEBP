@@ -1,0 +1,158 @@
+/* * Selektori * */
+
+/* Naziv elementa */
+p {
+    color: green;
+}
+
+/* Identifikator */
+#title {
+    font-weight: normal;
+}
+
+/* Klasa */
+.main-text {
+    color: yellow;
+}
+
+/* Paragraf nad kojim je definisana klasa main-text */
+p.main-text {
+    background: #ccc;
+}
+
+
+/* * Background * */
+
+#test {
+    width: 200px;
+    height: 200px;
+
+    background-color: #ff0000;
+    background-image: url('http://www.matf.bg.ac.rs/images/matf.gif');
+    background-repeat: no-repeat;
+
+    background-position: center center;
+    /* background-position: right top; */
+
+    /* background-size: contain; */
+    /* background-size: cover; */
+
+    /* parallax effect */
+    /* background-attachment: fixed; */
+
+    /* background: #ffffff url("../img/img_lights.jpg") no-repeat right top; */
+}
+
+
+/* * Borders * */
+
+#test {
+    /* border-style: solid;
+    border-color: #000;
+    border-width: 3px; */
+
+    /* border-top-style: solid;
+    border-top-color: #000;
+    border-top-width: 3px;
+    */
+
+    /* border: 1px solid #000; */
+    border-top: 3px solid #000;
+    border-left: 3px solid #000;
+    border-bottom: 3px solid #000;
+    border-right: 3px solid #000;
+
+    /* border-radius: 51px; */
+    border-bottom-right-radius: 50px;
+}
+
+
+/* * Margins and Paddings * */
+
+#test {
+    float: left;
+    /* margin: 10px; */
+    margin-right: 50px;
+
+    /* U smeru kazaljke na satu */
+    /*      top  right bot left */
+    /* margin: 30px 10px 2px 60px; */
+
+    /*         top  r&l  bot */
+    /* margin: 25px 50px 75px; */
+
+    /*           t&b  r&l */
+    /*   margin: 25px 50px; */
+
+    /* PADDING - ista stvar, samo umesto kljucne reci margin pisemo padding */
+    padding: 50px 10px;
+}
+
+/* * LIST * */
+
+li:nth-child(odd) {
+    background: #000;
+    color: #fff;
+}
+
+li:nth-child(even) {
+    background: #fff;
+    color: #000;
+}
+
+
+/* * POSITION * */
+
+#abs,
+#fixed {
+    width: 100px;
+    height: 100px;
+    background: rgba(0, 255, 0, 0.3);
+
+}
+
+#abs {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+#fixed {
+    position: fixed;
+    right: 100px;
+    top: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+}
+
+
+/* * OVERFLOW * */
+
+#abs {
+    /* overflow: hidden; */
+    overflow: auto;
+    /* overflow-y: scroll; */
+}
+
+/* RANDOM */
+
+p::first-line {
+    color: #ff0000;
+}
+
+#test {
+    text-align: center;
+}
+
+#test>a {
+    text-decoration: none;
+    font-family: "Times New Roman";
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 20px;
+    line-height: 200px;
+    /* word-spacing:  */
+
+
+}
